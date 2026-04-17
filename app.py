@@ -3,8 +3,8 @@ import re
 import joblib
 from explain import explain_error
 
-st.set_page_config(page_title="Error Insight", layout="centered")
-
+st.set_page_config(page_title="CodAlytiX", layout="centered")
+st.caption("Insight behind every error.")
 
 def clean_text(text):
     text = str(text).lower()
@@ -22,7 +22,7 @@ def load_model():
 
 model, vectorizer = load_model()
 
-st.title("Error Insight")
+st.title("CodAlytiX")
 st.markdown("Classify and explain programming errors across multiple languages.")
 
 error_text = st.text_area("Paste error message", height=100,

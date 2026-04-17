@@ -1,6 +1,6 @@
-# Error Insight
+# CodAlytiX
 
-Error Insight is a lightweight NLP-based classifier that identifies common programming errors and provides concise explanations.
+CodAlytiX is a lightweight NLP-based classifier that identifies common programming errors and provides concise explanations.
 
 The project combines traditional machine learning with an optional language model API to help quickly interpret unfamiliar error messages across different programming languages.
 
