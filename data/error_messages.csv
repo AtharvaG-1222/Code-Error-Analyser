@@ -1,0 +1,190 @@
+text,label
+"SyntaxError: invalid syntax",Syntax Error
+"syntax error near else statement",Syntax Error
+"unexpected token } in javascript",Syntax Error
+"missing semicolon at line 12",Syntax Error
+"expected ; before ) token c++",Syntax Error
+"forgot colon after if statement python",Syntax Error
+"SyntaxError: unexpected EOF while parsing",Syntax Error
+"unterminated string literal",Syntax Error
+"unexpected end of input javascript",Syntax Error
+"parse error syntax error unexpected token",Syntax Error
+"IndentationError: expected an indented block",Syntax Error
+"inconsistent use of tabs and spaces",Syntax Error
+"error: expected declaration or statement at end of input",Syntax Error
+"SyntaxError: missing ) after argument list",Syntax Error
+"illegal start of expression java",Syntax Error
+"expected primary-expression before token c++",Syntax Error
+"error CS1002: ; expected csharp",Syntax Error
+"unexpected token expected , got }",Syntax Error
+"SyntaxError: cannot assign to function call",Syntax Error
+"missing closing bracket in function definition",Syntax Error
+"return outside function",Syntax Error
+"error: expected class interface or enum java",Syntax Error
+"unexpected identifier got syntax error",Syntax Error
+"invalid character in identifier python",Syntax Error
+"got syntax error but cant find what is wrong",Syntax Error
+"unclosed string literal java",Syntax Error
+"expected unqualified-id before token c++",Syntax Error
+"syntax error at or near SELECT sql",Syntax Error
+"error: stray # in program c",Syntax Error
+"SyntaxError: positional argument follows keyword argument",Syntax Error
+"wrote else if instead of elif in python",Syntax Error
+"missing parentheses in call to print python3",Syntax Error
+"unexpected token < in json at position 0",Syntax Error
+"expression expected typescript",Syntax Error
+"SyntaxError: invalid or unexpected token node",Syntax Error
+"TypeError: unsupported operand type for + int and str",Type Error
+"cannot read property of undefined javascript",Type Error
+"TypeError: NoneType object is not iterable",Type Error
+"type error concatenating str and int",Type Error
+"object is not subscriptable",Type Error
+"TypeError: int object is not callable",Type Error
+"unhashable type list when using dict",Type Error
+"NoneType object is not subscriptable",Type Error
+"cannot invoke method on null reference java",Type Error
+"float object cannot be interpreted as integer",Type Error
+"TypeError: undefined is not a function",Type Error
+"incompatible types int cannot be converted to string java",Type Error
+"TypeError: cannot read property length of null",Type Error
+"invalid operands to binary expression c++",Type Error
+"cannot use string as type int in assignment go",Type Error
+"TypeError: missing 1 required positional argument",Type Error
+"argument type mismatch java",Type Error
+"invalid conversion from const char to int c++",Type Error
+"type error takes 0 positional arguments but 1 was given",Type Error
+"bool object is not iterable python",Type Error
+"TypeError: X is not a constructor javascript",Type Error
+"cannot implicitly convert type string to int csharp",Type Error
+"dict_keys object is not subscriptable",Type Error
+"cant use list as dictionary key type error",Type Error
+"operand types are incompatible int and string",Type Error
+"str object does not support item assignment",Type Error
+"property does not exist on type typescript",Type Error
+"cannot assign to read only property javascript",Type Error
+"conversion from float to int requires explicit cast",Type Error
+"IndexError: list index out of range",Index Error
+"getting index out of range when iterating list",Index Error
+"ArrayIndexOutOfBoundsException java",Index Error
+"index out of bounds exception",Index Error
+"vector subscript out of range c++",Index Error
+"IndexError: string index out of range",Index Error
+"array index out of bounds java",Index Error
+"IndexError: tuple index out of range",Index Error
+"runtime error index out of range golang",Index Error
+"list index out of range error on line 45",Index Error
+"pop from empty list gives index error",Index Error
+"accessing index -1 on empty list",Index Error
+"IndexOutOfRangeException csharp",Index Error
+"off by one error when slicing list",Index Error
+"StringIndexOutOfBoundsException java",Index Error
+"tried to access element 10 but array only has 5",Index Error
+"numpy array index out of bounds",Index Error
+"deque index out of range",Index Error
+"slice bounds out of range golang",Index Error
+"index error inside list comprehension",Index Error
+"wrong index variable in nested loop",Index Error
+"index error when splitting string",Index Error
+"list assignment index out of range",Index Error
+"accessing array element past the end c++",Index Error
+"too many indices for array numpy",Index Error
+"RangeError: invalid array length javascript",Index Error
+"System.IndexOutOfRangeException was thrown",Index Error
+"single positional indexer out of bounds pandas",Index Error
+"panic runtime error index out of range go",Index Error
+"cannot read property 0 of undefined",Index Error
+"NameError: name x is not defined",Name Error
+"variable not defined python",Name Error
+"ReferenceError: variable is not defined javascript",Name Error
+"cannot find symbol java",Name Error
+"name pd is not defined",Name Error
+"error use of undeclared identifier c++",Name Error
+"undefined reference to function c",Name Error
+"NameError: name true is not defined did you mean True",Name Error
+"ReferenceError: require is not defined",Name Error
+"name result is not defined",Name Error
+"error: cannot find symbol variable java",Name Error
+"used variable before assigning it",Name Error
+"CS0103 name does not exist in current context csharp",Name Error
+"name plt is not defined forgot import",Name Error
+"name error because of typo in variable name",Name Error
+"undefined: variableName golang",Name Error
+"ReferenceError: X is not defined nodejs",Name Error
+"name error for variable defined inside if block",Name Error
+"function not defined but its in another file",Name Error
+"called function before defining it",Name Error
+"NameError name df is not defined",Name Error
+"name random is not defined forgot import",Name Error
+"variable not declared in this scope c++",Name Error
+"scope issue variable not found outside loop",Name Error
+"python says variable not defined but i set it",Name Error
+"unresolved reference kotlin",Name Error
+"name sleep is not defined need import",Name Error
+"TS2304: Cannot find name variable typescript",Name Error
+"use of unresolved identifier swift",Name Error
+"undeclared name: x golang",Name Error
+"ImportError: No module named pandas",Import Error
+"cannot import module even after pip install",Import Error
+"ModuleNotFoundError: No module named numpy",Import Error
+"import error for sklearn after installing scikit-learn",Import Error
+"no module named cv2 opencv",Import Error
+"Error: Cannot find module express nodejs",Import Error
+"ModuleNotFoundError: No module named flask",Import Error
+"pip installed library but python cant find it",Import Error
+"import error DLL load failed",Import Error
+"cannot find module or its corresponding type declarations typescript",Import Error
+"ModuleNotFoundError: No module named tensorflow",Import Error
+"package not found golang",Import Error
+"ClassNotFoundException java",Import Error
+"ModuleNotFoundError no module named PIL use Pillow",Import Error
+"no module named requests need to pip install",Import Error
+"could not resolve dependency npm",Import Error
+"no module named torch",Import Error
+"circular import error between two files",Import Error
+"Error: Cannot find module ./component react",Import Error
+"No module named matplotlib.pyplot",Import Error
+"ModuleNotFoundError no module named streamlit",Import Error
+"import fails in jupyter but works in terminal",Import Error
+"error: package does not exist java",Import Error
+"unresolved import python pylance",Import Error
+"no required module was found powershell",Import Error
+"cannot find module path nodejs",Import Error
+"fatal error: iostream: No such file or directory c++",Import Error
+"could not find or load main class java",Import Error
+"error TS2307: Cannot find module typescript",Import Error
+"unable to resolve dependency gradle java",Import Error
+"ZeroDivisionError: division by zero",Runtime Error
+"division by zero calculating average of empty list",Runtime Error
+"null pointer exception java",Runtime Error
+"NullPointerException at main java",Runtime Error
+"segmentation fault core dumped",Runtime Error
+"stack overflow error",Runtime Error
+"StackOverflowError java recursive call",Runtime Error
+"maximum recursion depth exceeded python",Runtime Error
+"floating point error divide by zero",Runtime Error
+"overflow error int too large to convert",Runtime Error
+"OutOfMemoryError java heap space",Runtime Error
+"cannot divide by zero csharp",Runtime Error
+"segfault when accessing freed memory c++",Runtime Error
+"panic: runtime error nil pointer dereference go",Runtime Error
+"Unhandled exception access violation c++",Runtime Error
+"SIGABRT signal abort c",Runtime Error
+"KeyError: key not found in dictionary python",Runtime Error
+"FileNotFoundError: no such file or directory",Runtime Error
+"PermissionError: access denied",Runtime Error
+"TimeoutError: operation timed out",Runtime Error
+"ConnectionRefusedError: connection refused",Runtime Error
+"ValueError: invalid literal for int",Runtime Error
+"UnicodeDecodeError: codec cant decode byte",Runtime Error
+"RecursionError: maximum recursion depth exceeded",Runtime Error
+"deadlock detected goroutine blocked go",Runtime Error
+"concurrent modification exception java",Runtime Error
+"bus error core dumped c",Runtime Error
+"arithmetic overflow sql",Runtime Error
+"fatal error: all goroutines are asleep deadlock go",Runtime Error
+"Uncaught TypeError: cannot set property of null js",Runtime Error
+"thread panic rust",Runtime Error
+"buffer overflow detected c",Runtime Error
+"memory leak detected valgrind",Runtime Error
+"double free or corruption c",Runtime Error
+"integer overflow in calculation",Runtime Error
