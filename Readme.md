@@ -37,6 +37,25 @@ The project combines traditional machine learning with an optional language mode
 
 ---
 
+## Model Details
+
+Text preprocessing standardizes error messages by converting text to lowercase and removing special characters using regular expressions. This reduces noise and ensures similar error patterns are treated consistently.
+
+TF-IDF converts text into numerical features by capturing important words and common phrases that indicate specific types of errors.
+
+LinearSVC is used for classification because it performs well on high-dimensional text data and efficiently separates categories based on learned patterns.
+
+The trained vectorizer and model are saved using joblib and reused during prediction for fast inference.
+---
+
+## Why Linear SVM Classifier (LinearSVC)
+LinearSVC was chosen because TF-IDF produces high-dimensional and sparse text features, where linear decision boundaries are effective for separating categories based on keyword patterns.
+
+Compared to Logistic Regression, LinearSVC is generally more robust for text classification tasks with large feature spaces and tends to provide better separation between classes when the distinction depends on specific terms or phrases. It also handles sparse data efficiently and trains quickly even when the number of features is high.
+
+For short technical text such as programming error messages, LinearSVC provides a strong balance of performance, stability, and computational efficiency. 
+
+
 ## Tech Stack
 
 - scikit-learn (LinearSVC, TF-IDF)
@@ -75,27 +94,17 @@ Run application:
 streamlit run app.py
 ---
 
-## Model Details
 
-Text preprocessing removes noise and standardizes input using regex.
-
-TF-IDF is used to capture important keywords and phrases commonly associated with specific types of programming errors.
-
-LinearSVC was chosen because it performs well on sparse text features and provides fast, stable classification.
-
-The trained model is saved locally and reused for prediction.
-
----
-
-## Optional LLM explanations
+## Working Of LLM
 
 Set environment variable to enable explanations via HuggingFace API:
 set HF_API_TOKEN=your_token
-The application works without an API token using built-in fallback explanations.
+
+Else the application works without an API token using built-in fallback explanations, which have a set of predefined explainations for errors.
 
 ---
 
-## Possible Improvements
+## Improvements Lined Up
 
 - expand dataset with additional languages
 - finer-grained error categories
