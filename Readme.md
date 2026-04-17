@@ -66,7 +66,7 @@ For short technical text such as programming error messages, LinearSVC provides 
 ---
 
 ## Project Structure
-'''
+```
 CodAlytix
 │
 ├── data/
@@ -81,7 +81,7 @@ CodAlytix
 ├── explain.py
 ├── app.py
 └── requirements.txt
-'''
+```
 
 ---
 ## Setup
