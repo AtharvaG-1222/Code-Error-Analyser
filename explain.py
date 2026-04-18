@@ -23,6 +23,7 @@ def explain_error(error_text, error_type):
 
                 Include:
                 • what the error means in simple terms
+                • If a line number is present in the error message, mention the line number and indicate that the issue likely originates near that line.
                 • the main technical reason it occurs
                 • the programming concept involved (type mismatch, null reference, syntax rule, scope issue, index bounds, import issue, etc.)
                 • what to check in the code to fix it

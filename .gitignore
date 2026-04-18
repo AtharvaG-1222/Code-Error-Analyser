@@ -8,6 +8,5 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-apik.py
-apis.txt
-prompts.txt
+api_test.py
+helper files/
